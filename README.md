@@ -27,7 +27,9 @@ My question is: *"What result were you **expecting** as the outcome of adding tw
 
 The ridiculousness of the example aside, this problem is manufactured simply by not understanding how the language works. Any time you don't understand how a language works, regardless of the language, you will be confused. Period. The solution is to actively learn how it works rather than to passively complain.
 
-Javascript can only *"add"* strings *(as concatenation)* or numbers *(as floating-point addition)*. A quick explanation of these, example-by-example:
+**Javascript can sanely add only *"add"* strings *(as concatenation)* or numbers *(as floating-point addition)*.**
+
+A quick explanation of these, example-by-example:
 
 1. `[] + []`
 
