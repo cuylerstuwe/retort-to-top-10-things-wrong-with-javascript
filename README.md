@@ -78,9 +78,7 @@ However, if the first `{}` is treated as an object literal, as Chrome currently 
 
 ## #3: "Automatic semicolon insertion."
 
-It's definitely a little strange.
-
-However, it only takes maybe a day to grasp.
+It's definitely a little strange. However, it only takes maybe a day to grasp.
 
 In the meantime, while you're trying to wrap you head around it, use an editor, IDE, or linter which catches missing semicolons.
 
