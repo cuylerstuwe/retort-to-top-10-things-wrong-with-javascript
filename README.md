@@ -56,6 +56,18 @@ Instead, `{}` is interpreted as an **empty code block**. This empty code block i
 
 **NOTE:** If you want to get this to evaluate the way you expect it to, surround the `{}` in parenthesis. This `({})` structure makes it clear to the parser that `{}` exists in the context of evaluating an expression, and so it will interpret `{}` as an object literal rather than as an empty code block. You'll get the `"[object Object]"` you might have been expecting.
 
+### 4. `{} + {}` returns `NaN`
+
+This one isn't necesarily true, and the ambiguity in whether it's true or not depends on how the code is resolved.
+
+In **Firefox**:
+
+![Firefox evaluating {} + {} as NaN](https://i.imgur.com/nS52LCP.png)
+
+In **Chrome**:
+
+![Chrome evaluating {} + {} as "[object Object][object Object]"](https://i.imgur.com/CzAFBH5.png)
+
 ## #3: "Automatic semicolon insertion."
 
 It's definitely a little strange.
