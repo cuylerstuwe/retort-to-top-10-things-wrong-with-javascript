@@ -117,3 +117,13 @@ What year is this? 2006?
 We're coming up on 2020, and today's Javascript has Promises, async/await, generator functions, and RxJS.
 
 There's no reason that asynchronous code in Javascript needs to be messy; It's likely that the author of this article simply ditched Javascript in the past and hasn't kept up to date on recent trends.
+
+## #9: "Douglas Crockford says that JavaScript is “Lisp in C’s Clothing.” Lisp is a wonderful language and by extension, so is JavaScript."
+
+...
+
+OK.
+
+The author really wanted to write a *"Top 10"* title, but started running out of straws in the jar to grasp for.
+
+Javscript's latest sin is apparently that *"it's not Lisp"*.
