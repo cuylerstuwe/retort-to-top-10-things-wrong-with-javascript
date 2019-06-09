@@ -103,3 +103,11 @@ Again, no examples were given, because this is grasping at straws. Any language 
 ## #7: "Object prototypes do not scale well to large applications; it’s a rather primitive and sloppy way to do object-oriented programming (but it’s flexible!)."
 
 Yet again, grasping for straws. No examples were given to support the assertion that *"Object prototypes do not scale well to large applications."*
+
+## #8: "Asynchronous programming in JavaScript is very messy."
+
+What year is this? 2006?
+
+We're coming up on 2020, and today's Javascript has Promises, async/await, generator functions, and RxJS.
+
+There's no reason that asynchronous code in Javascript needs to be messy; It's likely that the author of this article simply hasn't kept up with modern changes in asynchronous features for Javascript as a result of ditching it in the past.
