@@ -102,7 +102,13 @@ Again, no examples were given, because this is grasping at straws. Any language 
 
 ## #7: "Object prototypes do not scale well to large applications; it’s a rather primitive and sloppy way to do object-oriented programming (but it’s flexible!)."
 
-Yet again, grasping for straws. No examples were given to support the assertion that *"Object prototypes do not scale well to large applications."*
+Yet again, grasping for straws.
+
+No examples were given to support the assertion that *"Object prototypes do not scale well to large applications."*
+
+A dynamic and weakly-typed language like Javascript might not be ideal for enforcing interfaces in huge applications *(TypeScript to the rescue here!)*, but that has nothing to do with the difference between prototypal and classical inherence.
+
+The author is conflating unrelated issues here.
 
 ## #8: "Asynchronous programming in JavaScript is very messy."
 
