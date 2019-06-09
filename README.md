@@ -80,7 +80,7 @@ However, if the first `{}` is treated as an object literal, as Chrome currently 
 
 It's definitely a little strange. However, it only takes maybe a day to grasp.
 
-In the meantime, while you're trying to wrap you head around it, use an editor, IDE, or linter which catches missing semicolons.
+In the meantime, while you're trying to wrap you head around it, use the standard Javascript style of danging your brackets, and use an editor, IDE, or linter which catches missing semicolons.
 
 In **any** language which terminates statements with semicolons, you're prone to unintended behavior when you leave them off. In a compiled language, this happens at compile-time. In an interpreted language, this happens at runtime.
 
