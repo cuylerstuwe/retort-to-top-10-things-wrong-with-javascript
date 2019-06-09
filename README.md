@@ -146,6 +146,8 @@ Toward the end of that 10-year stretch, Apple released the iPhone with no suppor
 
 Concurrently around the time the iPhone was released, Crockford was writing his seminal book *"Javscript: The Good Parts"*. It was published in 2008, and provided developers with a reasonable stopgap for writing well-organized Javascript in the period before ES6 *(2008-2015)*. This powerful book would undoubtedly have a serious influence on Node.
 
+What else happened around 2008? Google [developed V8](https://en.wikipedia.org/wiki/Chrome_V8) for Chrome. Javascript started getting significantly more performant, as one of today's most powerful companies in the world took a vested interest in making it so. It needed to, after all; Gmail was a single-page app with a ton of client-side code, and it would become publicly available a year later, in 2009.
+
 Java applets died out around 2014 or so, as [public perception and national agencies considered applets to be a security risk](https://krebsonsecurity.com/2016/02/good-riddance-to-oracles-java-plugin/), further cementing Javascript's position as *"the client-side language of the web"*.
 
 Node actually hadn't started becoming popular until around this time, when its features, ecosystem, and community reached a critical mass.
