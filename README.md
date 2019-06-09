@@ -1,4 +1,4 @@
-#Retort to "The Top 10 Things Wrong with Javascript"
+# Retort to "The Top 10 Things Wrong with Javascript"
 
 Today, while skimming my email, I came across a piece of writing on Medium written by one of Quora's most notorious Javascript-haters.
 
