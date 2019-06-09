@@ -50,9 +50,9 @@ Again, by the rules in step 1, the empty array is cast to the string `""`. The `
 
 This one seems like a head-scratcher, doesn't it?
 
-**Here's the trick:** `{}` is not used solely for object literals.
+**Here's the trick:** `{}` is **not** used *solely* for object literals.
 
-Instead, `{}` is interpreted as an **empty code block**. This empty code block is essentially ignored for the purpose of returning a value, and it is juxtaposed next to a unary `+` which, according to the rules of the language, casts the string result of `[]` to a number. We get the same `""` string result from the empty array that we've been getting, and then `""` is converted to the number `0`, as it will always be, by-spec. It might not seem obvious that an empty string converts to the number zero; Maybe `NaN` would make more sense. Possibly. But if this conversion seems nonsensical to you, don't put the language in a position where it has to compare disparate types.
+Instead, `{}` is interpreted here as an **empty code block**. This empty code block is essentially ignored for the purpose of returning a value, and it is juxtaposed next to a unary `+` which, according to the rules of the language, casts the string result of `[]` to a number. We get the same `""` string result from the empty array that we've been getting, and then `""` is converted to the number `0`, as it will always be, by-spec. It might not seem obvious that an empty string converts to the number zero; Maybe `NaN` would make more sense. Possibly. But if this conversion seems nonsensical to you, don't put the language in a position where it has to compare disparate types.
 
 **NOTE:** If you want to get this to evaluate the way you expect it to, surround the `{}` in parenthesis. This `({})` structure makes it clear to the parser that `{}` exists in the context of evaluating an expression, and so it will interpret `{}` as an object literal rather than as an empty code block. You'll get the `"[object Object]"` you might have been expecting.
 
@@ -82,9 +82,9 @@ It's definitely a little strange. However, it only takes maybe a day to grasp.
 
 In the meantime, while you're trying to wrap you head around it, use the standard Javascript style of danging your brackets, and use an editor, IDE, or linter which catches missing semicolons.
 
-In **any** language which terminates statements with semicolons, you're prone to unintended behavior when you leave them off. In a compiled language, this happens at compile-time. In an interpreted language, this happens at runtime.
+If you want to learn how ASI does its job, start by learning the difference between a statement and an expression, and go from there.
 
-Start by learning the difference between a statement and an expression, and go from there.
+In **any** language which terminates statements with semicolons, you're prone to unintended behavior when you leave them off. In a compiled language, this happens at compile-time. In an interpreted language, this happens at runtime. There are only a handful of *"gotcha"* cases where not understanding it will mess you up, and memorizing these few scenarios is very simple.
 
 ## #4: "JavaScript is seriously abused. Much of the code in the wild, especially those in commonly used libraries, are [sic] very badly written."
 
