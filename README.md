@@ -33,7 +33,7 @@ Here's a quick breakdown of why each of these examples work the way they do:
 
 ### 1. `[] + []`
 
-These are two empty arrays being added together. Arrays are converted to strings by calling `.toString()` on each of of their elements and concatenating the results with a comma between them.
+These are two empty arrays being added together. To produce a result, Javascript casts them to something it knows how to perform addition on: strings. Arrays are converted to strings by calling `.toString()` on each of of their elements and concatenating the results with a comma between them.
 
 So, for example, the array:
 `[1, 2, "surprise"]`
