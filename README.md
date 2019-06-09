@@ -99,3 +99,7 @@ It's not. No examples were given to support this claim, because it's not true. E
 ## #6: "JavaScript code can fail silently due to syntactical slip-ups."
 
 Again, no examples were given, because this is grasping at straws. Any language can fail when you leave off a semicolon, when you leave a typo in a variable name, when you forget to leave a comma in an array literal, when you leave off the closing quote on a string value, and so on.
+
+## #7: "Object prototypes do not scale well to large applications; it’s a rather primitive and sloppy way to do object-oriented programming (but it’s flexible!)."
+
+Yet again, grasping for straws. No examples were given to support the assertion that *"Object prototypes do not scale well to large applications."*
