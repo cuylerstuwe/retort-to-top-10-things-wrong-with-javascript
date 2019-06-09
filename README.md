@@ -40,7 +40,7 @@ So, for example, the array:
 would convert to the string:
 `"1,2,surprise"`.
 
-In the example above, the emptiness in each `[]` leads each array to become an empty string, and result of concatenating two empty strings is an empty string.
+In the example above, the emptiness in each `[]` leads each array to become the string `""`, and result of concatenating two `""` is `""`.
 
 ### 2. `[] + {}`
 
