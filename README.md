@@ -74,7 +74,7 @@ If the first `{}` is treated as a code block, as is the case with Firefox, then 
 
 However, if the first `{}` is treated as an object literal, as Chrome currently does, then each of these is converted to the string `"[object Object]"`, and these are concatenated to generate the string `"[object Object][object Object]"`.
 
-**Again: There's an important difference between simply not understanding a thing vs. that thing making no sense.**
+**Again: There's an important distinction between simply not understanding a thing vs. that thing making no sense.**
 
 ## #3: "Automatic semicolon insertion."
 
