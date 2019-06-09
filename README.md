@@ -32,3 +32,5 @@ Use an editor, IDE, or linter which catches missing semicolons. In any language 
 ## #4: "JavaScript is seriously abused. Much of the code in the wild, especially those in commonly used libraries, are [sic] very badly written."
 
 This is grasping for straws; It's not even really a complaint about Javascript at all, and it's impossible to confirm or falsify.
+
+Somewhere out there, someone is writing *"bad C"*, *"bad Java"*, and so on. A language can't force you to write code that's highly-performant and/or well-organized.
