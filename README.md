@@ -152,4 +152,4 @@ Java applets died out around 2014 or so, as [public perception and national agen
 
 Node actually hadn't started becoming popular until around this time, when its features, ecosystem, and community reached a critical mass.
 
-These are some of the combined circumstances which triggered the Javascript renaissance. It wasn't any one of them in isolation; It was all of them influencing one another, along with any other critical things I may have missed.
+**These are some of the combined circumstances which triggered the Javascript renaissance.** It **wasn't** any **one** of them in isolation; It was all of them influencing one another, along with any other critical things I may have missed.
