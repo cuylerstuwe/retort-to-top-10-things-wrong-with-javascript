@@ -93,3 +93,9 @@ Start by learning the difference between a statement and an expression, and go f
 This is grasping for straws; It's not even really a complaint about Javascript at all, and it's impossible to confirm or falsify.
 
 Somewhere out there, someone is writing *"bad C"*, *"bad Java"*, and so on. A language can't force you to write code that's highly-performant and/or well-organized.
+
+## #5: "JavaScript is highly dependent on global variables."
+
+It's not. No examples were given to support this claim, because it's not true. Even before modules existed, you could use closures to avoid polluting the global scope with variables. It's standard professional practice to write highly-modular Javscript with either ES6 or CommonJS modules.
+
+## #6: ""
