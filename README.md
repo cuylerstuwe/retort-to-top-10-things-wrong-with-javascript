@@ -23,6 +23,8 @@ Here's the first few lines, verbatim, of the example given to demonstrate this "
     
 My question is: *"What result were you **expecting** as the outcome of adding two arrays? An array to an object? An object to another object?"*
 
+**There is no reason you should be trying to use an infix addition operator to "add" an object to an array.**
+
 This is a manufactured problem caused simply by not understanding how the language works. Any time you don't understand how a language works, regardless of the language, you will be confused. Period. The solution is to actively learn how it works rather than to passively complain.
 
 ## #3: "Automatic semicolon insertion."
