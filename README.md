@@ -50,6 +50,8 @@ Again, by the rules in step 1, the empty array is cast to the string `""`. The `
 
 This one seems like a head-scratcher, doesn't it? Here's the trick: `{}` is not used solely for object literals. Here, `{}` is interpreted as an **empty code block**, juxtaposed next to a unary `+` which, according to the rules of the language, casts the string result of `[]` to a number.
 
+**NOTE:** If you want to get this to evaluate the way you expect it to, surrounding `{}` in parenthesis, *(turning it into `({})`)* will make it explicit to the parser that you want it to interpret `{}` as an object literal. You'll get the `"[object Object]"` you might have been expecting.
+
 ## #3: "Automatic semicolon insertion."
 
 It's definitely a little strange.
