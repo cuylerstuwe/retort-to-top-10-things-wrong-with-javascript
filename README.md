@@ -27,6 +27,27 @@ My question is: *"What result were you **expecting** as the outcome of adding tw
 
 The ridiculousness of the example aside, this problem is manufactured simply by not understanding how the language works. Any time you don't understand how a language works, regardless of the language, you will be confused. Period. The solution is to actively learn how it works rather than to passively complain.
 
+Javascript can only *"add"* strings *(as concatenation)* or numbers *(as floating-point addition)*. A quick explanation of these, example-by-example:
+
+1. `[] + []`
+
+These are two empty arrays being added together. Arrays are converted to strings by calling `.toString()` on each of of their elements and concatenating the results with a comma between them.
+
+So, for example, the array:
+`[1, 2, "surprise"]`
+would convert to the string:
+`"1,2,surprise"`.
+
+In the example above, the emptiness in each `[]` leads each array to become an empty string, and result of concatenating two empty strings is an empty string.
+
+2. `[] + {}`
+
+Again, by the rules in step 1, the empty array is cast as an empty string. The `toString()` method of an plain-old-object, by default, returns `"[object Object]"`. An empty string concatenated with this changes nothing.
+
+3. `{} + []`
+
+This one seems like a head-scratcher, doesn't it? Here's the trick: `{}` is not used solely for object literals. Here, `{}` is interpreted as an empty code scope, juxtaposed next to a unary `+` which, according to the rules of the language, casts the string result of `[]` to a number.
+
 ## #3: "Automatic semicolon insertion."
 
 It's definitely a little strange.
