@@ -98,4 +98,4 @@ It's not. No examples were given to support this claim, because it's not true. E
 
 ## #6: "JavaScript code can fail silently due to syntactical slip-ups."
 
-Again, no examples were given, because this is grasping at straws. Any language can fail when you leave off a semicolon, when you leave a typo in a variable name, when you forget to leave a comma in an array literal, when you leave off the closing quote on a string literal, and so on.
+Again, no examples were given, because this is grasping at straws. Any language can fail when you leave off a semicolon, when you leave a typo in a variable name, when you forget to leave a comma in an array literal, when you leave off the closing quote on a string value, and so on.
