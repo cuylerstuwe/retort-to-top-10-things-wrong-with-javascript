@@ -144,6 +144,8 @@ In a world of instability, Flash was the cross-platform tool of choice to guaran
 
 Toward the end of that 10-year stretch, Apple released the iPhone with no support for Flash. Later, Steve Jobs would write his [Thoughts on Flash](https://www.apple.com/hotnews/thoughts-on-flash/), cementing his support for HTML5 and Javascript to replace Flash. Around this time, HTML5 granted Javascript some magical animation features which people had formerly used Flash for. With the growing expectation that most web browsing would occur on smartphones, and with one of the most popular smartphones not supporting Flash *(or other browser plugins)*, what language remained? Which language worked on iPhones and Android phones? On the iPad and the Android tablets that copied it? **Javascript**.
 
-Java applets died out around 2014 or so, as [public perception and national agencies considered applets to be a security risk](https://krebsonsecurity.com/2016/02/good-riddance-to-oracles-java-plugin/), further cementing Javascript's position as *"the client-side language of the web"*. Node actually hadn't started becoming popular until around this time, when its features, ecosystem, and community reached a critical mass.
+Java applets died out around 2014 or so, as [public perception and national agencies considered applets to be a security risk](https://krebsonsecurity.com/2016/02/good-riddance-to-oracles-java-plugin/), further cementing Javascript's position as *"the client-side language of the web"*.
+
+Node actually hadn't started becoming popular until around this time, when its features, ecosystem, and community reached a critical mass.
 
 These are some of the combined circumstances which triggered the Javascript renaissance. It wasn't any one of them in isolation; It was all of them influencing one another, along with any other critical things I may have missed.
