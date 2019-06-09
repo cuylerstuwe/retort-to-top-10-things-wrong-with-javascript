@@ -29,7 +29,7 @@ The ridiculousness of the example aside, this problem is manufactured simply by 
 
 **Javascript can sanely add only *"add"* strings *(as concatenation)* or numbers *(as floating-point addition)*.**
 
-A quick explanation of these, example-by-example:
+Here's a quick breakdown of why each of these examples work the way they do:
 
 1. `[] + []`
 
