@@ -22,3 +22,13 @@ Here's the first few lines, verbatim, of the example given to demonstrate this "
     {} + {} → NaN // ???
     
 My question is: *"What result were you **expecting** as the outcome of adding two arrays? An array to an object? An object to another object?"*
+
+This is a manufactured problem caused simply by not understanding how the language works. Any time you don't understand how a language works, regardless of the language, you will be confused. Period. The solution is to actively learn how it works rather than to passively complain.
+
+## #3: "Automatic semicolon insertion."
+
+Use an editor, IDE, or linter which catches missing semicolons. In any language that uses semicolons, you're prone to unintended behavior when you leave them off. In a compiled language, this happens at compile-time. In an interpreted language, this happens at runtime.
+
+## #4: "JavaScript is seriously abused. Much of the code in the wild, especially those in commonly used libraries, are [sic] very badly written."
+
+This is grasping for straws; It's not even really a complaint about Javascript at all, and it's impossible to confirm or falsify.
