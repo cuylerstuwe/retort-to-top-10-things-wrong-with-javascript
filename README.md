@@ -33,7 +33,9 @@ However, it only takes maybe a day to grasp.
 
 In the meantime, while you're trying to wrap you head around it, use an editor, IDE, or linter which catches missing semicolons.
 
-In any language that uses semicolons, you're prone to unintended behavior when you leave them off. In a compiled language, this happens at compile-time. In an interpreted language, this happens at runtime.
+In **any** language which terminates statements with semicolons, you're prone to unintended behavior when you leave them off. In a compiled language, this happens at compile-time. In an interpreted language, this happens at runtime.
+
+Start by learning the difference between a statement and an expression, and go from there.
 
 ## #4: "JavaScript is seriously abused. Much of the code in the wild, especially those in commonly used libraries, are [sic] very badly written."
 
