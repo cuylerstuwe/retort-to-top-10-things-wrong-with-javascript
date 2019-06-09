@@ -96,4 +96,6 @@ Somewhere out there, someone is writing *"bad C"*, *"bad Java"*, and so on. A la
 
 It's not. No examples were given to support this claim, because it's not true. Even before modules existed, you could use closures to avoid polluting the global scope with variables. It's standard professional practice to write highly-modular Javscript with either ES6 or CommonJS modules.
 
-## #6: ""
+## #6: "JavaScript code can fail silently due to syntactical slip-ups."
+
+Again, no examples were given, because this is grasping at straws. Any language can fail when you leave off a semicolon, when you leave a typo in a variable name, and so on.
