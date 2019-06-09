@@ -44,7 +44,7 @@ In the example above, the emptiness in each `[]` leads each array to become the 
 
 ### 2. `[] + {}` returns `"[object Object]"`
 
-Again, by the rules in step 1, the empty array is cast to the string `""`. The `toString()` method of an plain-old-object, by default, returns `"[object Object]"`. `""` concatenated with `"[object Object]"` is `"[object Object]"`.
+Again, by the rules in step 1, the empty array is cast to the string `""`. The `toString()` method of `{}` *(a plain-old-object)*, by default, returns `"[object Object]"`. `""` concatenated with `"[object Object]"` is `"[object Object]"`.
 
 ### 3. `{} + []` returns `0`
 
