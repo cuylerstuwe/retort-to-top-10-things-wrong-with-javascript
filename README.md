@@ -127,3 +127,19 @@ OK.
 The author really wanted to write a *"Top 10"* title, but started running out of straws in the jar to grasp for.
 
 Javscript's latest sin is apparently that *"it's not Lisp"*.
+
+## #10: "The main draw of JavaScript is actually in frameworks like Node.js and AngularJS. If not for them, why would you use JavaScript??? Prior to 2009, when Node.js was released, people generally avoided using JavaScript; its use was limited to some jQuery and webpage enhancements."
+
+This is a misunderstanding of the historical events leading to Javascript's growth.
+
+People didn't start using Javascript all of a sudden the very moment that Node.js was released.
+
+The reason that people didn't use Javascript so much *(and why Javascript's spec floundered in the period between 1999 and 2009)* is that Flash, Java applets, and various ActiveX extensions were popular.
+
+In the 10 years between 1999 and 2009, we'd seen a glimmer of three different browsers controlling the market; First, IE, then Firefox, then Chrome.
+
+In a world of instability, Flash was the cross-platform tool of choice. As long as a browser had a Flash extension, you could write something that would be consistent across all browsers.
+
+Toward the end of that 10-year stretch, Apple released the iPhone with no support for Flash. Later, Steve Jobs would write his [Thoughts on Flash](https://www.apple.com/hotnews/thoughts-on-flash/). Around this time, HTML5 started granting Javascript some magical features previously available only to applets, and people were predicting that most web browsing would occur on smartphones. With one of the most popular smartphones not supporting Flash *(or other browser plugins)*, what language remained? **Javascript**.
+
+Java applets died out around 2014 or so, as [public perception and national agencies considered applets to be a security risk](https://krebsonsecurity.com/2016/02/good-riddance-to-oracles-java-plugin/), further cementing Javascript's position as *"the client-side language of the web"*. Node actually hadn't started becoming popular until around this time, when its features, ecosystem, and community reached a critical mass.
