@@ -68,7 +68,7 @@ In **Chrome**:
 
 ![Chrome evaluating {} + {} as "[object Object][object Object]"](https://i.imgur.com/CzAFBH5.png)
 
-Though all modern browsers agree that `{}` should be treated as a code block when they come across `{} + []` in the REPL, browsers disagree on whether the first operand is a code block or not when they come across `{} + {}` *(they do agree that the second `{}` is an object literal, though)*. It's a corner case that's not really specified *(probably because it's a stupid thing to intentionally do in the first place)*.
+Though all modern browsers agree that `{}` should be treated as a code block when they come across `{} + []` in the REPL, browsers disagree on whether the first operand is a code block or not when they come across `{} + {}` *(they do agree that the second `{}` is an object literal, though)*. It's a corner case in parsing that's not really specified *(probably because it's a stupid thing to intentionally do in the first place)*.
 
 If the first `{}` is treated as a code block, as is the case with Firefox, then the expression being evaluated is effectively a unary `+{}`. This results in `NaN`.
 
