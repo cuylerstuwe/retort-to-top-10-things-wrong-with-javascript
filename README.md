@@ -130,9 +130,9 @@ Javscript's latest sin is apparently that *"it's not Lisp"*.
 
 ## #10: "The main draw of JavaScript is actually in frameworks like Node.js and AngularJS. If not for them, why would you use JavaScript??? Prior to 2009, when Node.js was released, people generally avoided using JavaScript; its use was limited to some jQuery and webpage enhancements."
 
-This is a misunderstanding of the historical events leading to Javascript's growth.
+This is a **misunderstanding** of the history of the web relevant to Javascript's growth.
 
-People didn't start using Javascript all of a sudden the very moment that Node.js was released.
+*People didn't start using Javascript all of a sudden the very moment that Node.js was released!*
 
 The reason that people didn't use Javascript so much *(and why Javascript's spec floundered in the period between 1999 and 2009)* is that Flash, Java applets, and various ActiveX extensions were popular.
 
