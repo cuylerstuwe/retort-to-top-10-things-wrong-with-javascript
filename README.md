@@ -31,7 +31,7 @@ The ridiculousness of the example aside, this problem is manufactured simply by 
 
 Here's a quick breakdown of why each of these examples work the way they do:
 
-### 1. `[] + []`
+### 1. `[] + []` returns `""`
 
 These are two empty arrays being added together. To produce a result, Javascript casts them to something it knows how to perform *"addition"* on: **strings**. Arrays are converted to strings by calling `.toString()` on each of of their elements and concatenating the results with a comma between them.
 
@@ -42,11 +42,11 @@ would convert to the string:
 
 In the example above, the emptiness in each `[]` leads each array to become the string `""`, and result of concatenating two `""` is `""`.
 
-### 2. `[] + {}`
+### 2. `[] + {}` returns `"[object Object]"`
 
 Again, by the rules in step 1, the empty array is cast to the string `""`. The `toString()` method of an plain-old-object, by default, returns `"[object Object]"`. `""` concatenated with `"[object Object]"` is `"[object Object]"`.
 
-### 3. `{} + []`
+### 3. `{} + []` returns `0`
 
 This one seems like a head-scratcher, doesn't it? Here's the trick: `{}` is not used solely for object literals. Here, `{}` is interpreted as an **empty code block**, juxtaposed next to a unary `+` which, according to the rules of the language, casts the string result of `[]` to a number. We get the same `""` string result from the empty array that we've been getting, and then `""` is converted to the number `0`, as it will always be, by-spec. If this conversion seems nonsensical to you, don't put the language in a position where it has to compare disparate types.
 
