@@ -110,4 +110,4 @@ What year is this? 2006?
 
 We're coming up on 2020, and today's Javascript has Promises, async/await, generator functions, and RxJS.
 
-There's no reason that asynchronous code in Javascript needs to be messy; It's likely that the author of this article simply hasn't kept up with modern changes in asynchronous features for Javascript as a result of ditching it in the past.
+There's no reason that asynchronous code in Javascript needs to be messy; It's likely that the author of this article simply ditched Javascript in the past and hasn't kept up to date on recent trends.
