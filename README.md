@@ -132,7 +132,7 @@ Javscript's latest sin is apparently that *"it's not Lisp"*.
 
 This is a **misunderstanding** of the history of the web relevant to Javascript's growth.
 
-*People didn't start using Javascript all of a sudden the very moment that Node.js was released!*
+*People didn't start using Javascript in droves the very moment that Node.js was released!*
 
 The reason that people didn't use Javascript so much *(and why Javascript's spec floundered in the period between 1999 and 2009)* is that Flash, Java applets, and various ActiveX extensions were popular.
 
