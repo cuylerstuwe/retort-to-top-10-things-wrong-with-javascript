@@ -136,9 +136,7 @@ This is a **misunderstanding** of the history of the web relevant to Javascript'
 
 The reason that people didn't use Javascript so much *(and why Javascript's spec floundered in the period between 1999 and 2009)* is that Flash, Java applets, and various ActiveX extensions were popular.
 
-In the 10 years between 1999 and 2009, we'd seen utter dominance of the browser market shift between three browsers; First, IE, then Firefox, then Chrome.
-
-These browsers varied wildly in how they implemented things, and cross-browser compatibility was a major issue.
+In the 10 years between 1999 and 2009, we'd seen utter dominance of the browser market shift between three browsers; First, IE, then Firefox, then Chrome. These browsers varied wildly in how they implemented things, and cross-browser compatibility was a major issue.
 
 In a world of instability, Flash was the cross-platform tool of choice to guarantee consistency. As long as a browser had a Flash extension, you could write a Flash applet that would embed consistently in a page across all desktop browsers.
 
