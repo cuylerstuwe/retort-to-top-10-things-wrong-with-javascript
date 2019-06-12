@@ -140,7 +140,7 @@ In the 10 years between 1999 and 2009, we'd seen utter dominance of the browser 
 
 These browsers varied wildly in how they implemented things, and cross-browser compatibility was a major issue.
 
-In a world of instability, Flash was the cross-platform tool of choice to guarantee consistency. As long as a browser had a Flash extension, you could write something that would be consistent across all desktop browsers.
+In a world of instability, Flash was the cross-platform tool of choice to guarantee consistency. As long as a browser had a Flash extension, you could write a Flash applet that would embed consistently in a page across all desktop browsers.
 
 Toward the end of that 10-year stretch, Apple released the iPhone with no support for Flash. Later, Steve Jobs would write his [Thoughts on Flash](https://www.apple.com/hotnews/thoughts-on-flash/), cementing his support for HTML5 and Javascript to replace Flash. Around this time, HTML5 granted Javascript some magical animation features which people had formerly used Flash for. With the growing expectation that most web browsing would occur on smartphones, and with one of the most popular smartphones not supporting Flash *(or other browser plugins)*, what language remained? Which language worked on iPhones and Android phones? On the iPad and the Android tablets that copied it? **Javascript**.
 
