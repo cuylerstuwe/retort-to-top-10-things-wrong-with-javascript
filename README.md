@@ -148,6 +148,8 @@ What else happened around 2008? Google [developed V8](https://en.wikipedia.org/w
 
 Java applets died out around 2014 or so, as [public perception and national agencies considered applets to be a security risk](https://krebsonsecurity.com/2016/02/good-riddance-to-oracles-java-plugin/), further cementing Javascript's position as *"the client-side language of the web"*.
 
+Flash was on its deathbed around the same time Java applets were dying out, heading toward [the looming 2020 phase-out](). Which language were Flash applets written in, by the way? **ActionScript 3**, which was... **[basically Javascript](http://archive.is/LWbQH)** *(along with some features which would, later on, inform ES6)*.
+
 Speaking of 2014... Despite its release a few years earlier, Node actually hadn't actually reached a tipping point to start becoming popular until around this time. It took those few years for its features, ecosystem, and community to reach a critical mass. And it couldn't have happened at a more opportune time -- Ruby *(on Rails)* had been popular for a while, but people had started becoming fatigued of it. Node's promise of being able to write a single language *(Javascript)* on both the client and server was a very unique proposition, and the allure was enough to draw some people away from the hipster web framework they'd become so invested in to that point.
 
 **These are some of the combined circumstances which triggered the Javascript renaissance.** It **wasn't** any **one** of them in isolation; It was all of them influencing one another, along with any other critical things I may have missed. Between 2008 to 2019, Javascript started to run faster, people learned to write better Javascript, and Javascript became more ubiquitous.
