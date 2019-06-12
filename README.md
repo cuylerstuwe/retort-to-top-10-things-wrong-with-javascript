@@ -70,7 +70,7 @@ In **Chrome**:
 
 Though all modern browsers agree that `{}` should be treated as a code block when they come across `{} + []` in the REPL, browsers disagree on whether the first operand is a code block or not when they come across `{} + {}` *(they do agree that the second `{}` is an object literal, though)*. It's a corner case in parsing that's not really specified *(probably because it's a stupid thing to intentionally do in the first place)*.
 
-If the first `{}` is treated as a code block, as is the case with Firefox, then the expression being evaluated is effectively a unary `+{}`. This results in `NaN`.
+If the first `{}` is treated as a code block, as is the case with Firefox, then the expression being evaluated is effectively a unary `+{}`. This results in `NaN`, as `{}` is turned into `"[object Object]"`, which has no sensical means for being cast to a number by the `+` operator.
 
 However, if the first `{}` is treated as an object literal, as Chrome currently does, then each of these is converted to the string `"[object Object]"`, and these are concatenated to generate the string `"[object Object][object Object]"`.
 
