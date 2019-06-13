@@ -138,7 +138,7 @@ The reason that people didn't use Javascript so much *(and why Javascript's spec
 
 In the 10 years between 1999 and 2009, we'd seen utter dominance of the browser market shift between three browsers; First, IE, then Firefox, then Chrome. These browsers varied wildly in how they implemented things, and cross-browser compatibility was a major issue.
 
-In a world of instability, Flash was the cross-platform tool of choice to guarantee consistency. As long as a browser had a Flash extension, you could write a Flash applet that would embed consistently in a page across all desktop browsers.
+In a world of instability, Flash was the cross-platform tool of choice to guarantee consistency. As long as a browser had a Flash extension, you could write a Flash applet that would embed consistently in a page across all desktop browsers. Browser compatibility was such a hell that it was much simpler to simply frame something seperate from the browser within the browser.
 
 Toward the end of that 10-year stretch, Apple released the iPhone with no support for Flash. Later, Steve Jobs would write his [Thoughts on Flash](http://archive.is/LKxtg), cementing his support for HTML5 and Javascript to replace Flash. Around this time, HTML5 granted Javascript some magical animation features that had previously been available only to Flash or other applets. With the growing expectation that most web browsing would occur on smartphones, and with one of the most popular smartphones not supporting Flash *(or other browser plugins)*, what language remained? Which language worked on iPhones and Android phones? Which language worked on the iPad and the Android tablets that copied it? **Javascript**.
 
